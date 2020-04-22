@@ -16,19 +16,20 @@ Usage:
 Assuming you already have snpeff installed on your machine, please modify the path in "ToolsConfig.py" leading to the /snpEff directory.
 - For convenience, the output of snpEff annotated file "Challenge_data.snpeff.vcf" is provided so the examiner dosen't need to re-run SnpEff.
 - [OPTIONAL]: If there is a desire to run "SnpEff", please uncomment the following line in the "variantannot_Mankoo.py" code after modifying the path to /snpEff directory.
+- #run_snpeff('Challenge_data.vcf') 
 
 ### Starting from scratch
 	python3 variantannot_Mankoo.py
 
-OUTPUT FORMAT APPENDED TO INPUT VCF FILE:
+OUTPUT COLUMNS APPENDED TO INPUT VCF FILE:
 ------------------------------------------------------------
 HEADERS				| Description |
 --------			| ----------- |
 NumAltAlleles			| The total number of alternate alleles per variant.
 MostDeleteriousPerVariant	| The most deleterious effect per allele per variant as defined by SnpEff.
 EXAC_AF_PERALLELE		| The allele frequency per allele per variant from EXAC
-normalResults			| For normal sample, a csv reporting "total read depth, allelic counts per allele, %Reads supporting an allele per variant for all alleles"
-vaf5Results			| For vaf5 sample, a csv reporting "total read depth, allelic counts per allele, %Reads supporting an allele per variant for all alleles"
+normalResults			| For normal sample, reporting "total read depth, allelic counts per allele, %Reads supporting an allele per variant for all alleles"
+vaf5Results			| For vaf5 sample, reporting "total read depth, allelic counts per allele, %Reads supporting an allele per variant for all alleles"
 
 
 Extra Information:
