@@ -1,0 +1,232 @@
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file '/Users/Documents/snpEff/snpEff.config'. Genome: 'hg19'
+00:00:00	Reading config file: /Users/Documents/snpEff/snpEff.config
+00:00:00	done
+00:00:00	Reading database for genome version 'hg19' from file '/Users/Documents/snpEff/./data/hg19/snpEffectPredictor.bin' (this might take a while)
+00:00:09	done
+00:00:09	Reading NextProt database from file '/Users/Documents/snpEff/./data/hg19/nextProt.bin'
+00:00:10	NextProt database: 542362 markers loaded.
+00:00:10	Adding transcript info to NextProt markers.
+00:00:10	NextProt database: 542362 markers added.
+00:00:10	Loading Motifs and PWMs
+00:00:10	Loading interactions from : /Users/Documents/snpEff/./data/hg19/interactions.bin
+00:00:15		Interactions: 1590613 added, 0 skipped.
+00:00:15	Building interval forest
+00:00:20	done.
+00:00:20	Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Homo_sapiens (USCS)'
+# Genome version             : 'hg19'
+# Genome ID                  : 'hg19[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 29583
+# Protein coding genes       : 20797
+#-----------------------------------------------
+# Transcripts                : 60834
+# Avg. transcripts per gene  : 2.06
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :  52386 ( 86.11% )
+#-----------------------------------------------
+# Protein coding transcripts : 46522
+#              Length errors :     93 ( 0.20% )
+#  STOP codons in CDS errors :     78 ( 0.17% )
+#         START codon errors :    117 ( 0.25% )
+#        STOP codon warnings :     19 ( 0.04% )
+#              UTR sequences :  45868 ( 75.40% )
+#               Total Errors :    256 ( 0.55% )
+#-----------------------------------------------
+# Cds                        : 460256
+# Exons                      : 570329
+# Exons with sequence        : 570329
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 9.38
+#-----------------------------------------------
+# Number of chromosomes      : 94
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'1'	249250621	Standard
+#		'2'	243199373	Standard
+#		'3'	198022430	Standard
+#		'4'	191154276	Standard
+#		'5'	180915260	Standard
+#		'6'	171115067	Standard
+#		'7'	159138663	Standard
+#		'X'	155270560	Standard
+#		'8'	146364022	Standard
+#		'9'	141213431	Standard
+#		'10'	135534747	Standard
+#		'11'	135006516	Standard
+#		'12'	133851895	Standard
+#		'13'	115169878	Standard
+#		'14'	107349540	Standard
+#		'15'	102531392	Standard
+#		'16'	90354753	Standard
+#		'17'	81195210	Standard
+#		'18'	78077248	Standard
+#		'20'	63025520	Standard
+#		'Y'	59373566	Standard
+#		'19'	59128983	Standard
+#		'22'	51304566	Standard
+#		'21'	48129895	Standard
+#		'6_ssto_hap7'	4928567	Standard
+#		'6_mcf_hap5'	4833398	Standard
+#		'6_cox_hap2'	4795371	Standard
+#		'6_mann_hap4'	4683263	Standard
+#		'6_apd_hap1'	4622290	Standard
+#		'6_qbl_hap6'	4611984	Standard
+#		'6_dbb_hap3'	4610396	Standard
+#		'17_ctg5_hap1'	1680828	Standard
+#		'4_ctg9_hap1'	590426	Standard
+#		'1_gl000192_random'	547496	Standard
+#		'Un_gl000225'	211173	Standard
+#		'4_gl000194_random'	191469	Standard
+#		'4_gl000193_random'	189789	Standard
+#		'9_gl000200_random'	187035	Standard
+#		'Un_gl000222'	186861	Standard
+#		'Un_gl000212'	186858	Standard
+#		'7_gl000195_random'	182896	Standard
+#		'Un_gl000223'	180455	Standard
+#		'Un_gl000224'	179693	Standard
+#		'Un_gl000219'	179198	Standard
+#		'17_gl000205_random'	174588	Standard
+#		'Un_gl000215'	172545	Standard
+#		'Un_gl000216'	172294	Standard
+#		'Un_gl000217'	172149	Standard
+#		'9_gl000199_random'	169874	Standard
+#		'Un_gl000211'	166566	Standard
+#		'Un_gl000213'	164239	Standard
+#		'Un_gl000220'	161802	Standard
+#		'Un_gl000218'	161147	Standard
+#		'19_gl000209_random'	159169	Standard
+#		'Un_gl000221'	155397	Standard
+#		'Un_gl000214'	137718	Standard
+#		'Un_gl000228'	129120	Standard
+#		'Un_gl000227'	128374	Standard
+#		'1_gl000191_random'	106433	Standard
+#		'19_gl000208_random'	92689	Standard
+#		'9_gl000198_random'	90085	Standard
+#		'17_gl000204_random'	81310	Standard
+#		'Un_gl000233'	45941	Standard
+#		'Un_gl000237'	45867	Standard
+#		'Un_gl000230'	43691	Standard
+#		'Un_gl000242'	43523	Standard
+#		'Un_gl000243'	43341	Standard
+#		'Un_gl000241'	42152	Standard
+#		'Un_gl000236'	41934	Standard
+#		'Un_gl000240'	41933	Standard
+#		'17_gl000206_random'	41001	Standard
+#		'Un_gl000232'	40652	Standard
+#		'Un_gl000234'	40531	Standard
+#		'11_gl000202_random'	40103	Standard
+#		'Un_gl000238'	39939	Standard
+#		'Un_gl000244'	39929	Standard
+#		'Un_gl000248'	39786	Standard
+#		'8_gl000196_random'	38914	Standard
+#		'Un_gl000249'	38502	Standard
+#		'Un_gl000246'	38154	Standard
+#		'17_gl000203_random'	37498	Standard
+#		'8_gl000197_random'	37175	Standard
+#		'Un_gl000245'	36651	Standard
+#		'Un_gl000247'	36422	Standard
+#		'9_gl000201_random'	36148	Standard
+#		'Un_gl000235'	34474	Standard
+#		'Un_gl000239'	33824	Standard
+#		'21_gl000210_random'	27682	Standard
+#		'Un_gl000231'	27386	Standard
+#		'Un_gl000229'	19913	Standard
+#		'M'	16571	Vertebrate_Mitochondrial
+#		'Un_gl000226'	15008	Standard
+#		'18_gl000207_random'	4262	Standard
+#		'MT'	1	Vertebrate_Mitochondrial
+#-----------------------------------------------
+
+00:00:24	Predicting variants
+00:00:24	Loading sequences for chromosome '1' from file '/Users/Documents/snpEff/./data/hg19/sequence.1.bin'
+00:00:27	Building sequence tree for chromosome '1'
+00:00:27	Done. Loaded 2071 sequences.
+00:00:28	Loading sequences for chromosome '2' from file '/Users/Documents/snpEff/./data/hg19/sequence.2.bin'
+00:00:30	Building sequence tree for chromosome '2'
+00:00:30	Done. Loaded 1357 sequences.
+00:00:30	Loading sequences for chromosome '3' from file '/Users/Documents/snpEff/./data/hg19/sequence.3.bin'
+00:00:32	Building sequence tree for chromosome '3'
+00:00:32	Done. Loaded 1111 sequences.
+00:00:33	Loading sequences for chromosome '4' from file '/Users/Documents/snpEff/./data/hg19/sequence.4.bin'
+00:00:34	Building sequence tree for chromosome '4'
+00:00:34	Done. Loaded 856 sequences.
+00:00:34	Loading sequences for chromosome '5' from file '/Users/Documents/snpEff/./data/hg19/sequence.5.bin'
+00:00:36	Building sequence tree for chromosome '5'
+00:00:36	Done. Loaded 975 sequences.
+00:00:36	Loading sequences for chromosome '6' from file '/Users/Documents/snpEff/./data/hg19/sequence.6.bin'
+00:00:38	Building sequence tree for chromosome '6'
+00:00:38	Done. Loaded 1116 sequences.
+00:00:38	Loading sequences for chromosome '7' from file '/Users/Documents/snpEff/./data/hg19/sequence.7.bin'
+00:00:40	Building sequence tree for chromosome '7'
+00:00:40	Done. Loaded 986 sequences.
+00:00:40	Loading sequences for chromosome '8' from file '/Users/Documents/snpEff/./data/hg19/sequence.8.bin'
+00:00:41	Building sequence tree for chromosome '8'
+00:00:41	Done. Loaded 802 sequences.
+00:00:41	Loading sequences for chromosome '9' from file '/Users/Documents/snpEff/./data/hg19/sequence.9.bin'
+00:00:42	Building sequence tree for chromosome '9'
+00:00:42	Done. Loaded 873 sequences.
+00:00:43	Loading sequences for chromosome '10' from file '/Users/Documents/snpEff/./data/hg19/sequence.10.bin'
+00:00:44	Building sequence tree for chromosome '10'
+00:00:44	Done. Loaded 838 sequences.
+00:00:44	Loading sequences for chromosome '11' from file '/Users/Documents/snpEff/./data/hg19/sequence.11.bin'
+00:00:46	Building sequence tree for chromosome '11'
+00:00:46	Done. Loaded 1296 sequences.
+00:00:46	Loading sequences for chromosome '12' from file '/Users/Documents/snpEff/./data/hg19/sequence.12.bin'
+00:00:47	Building sequence tree for chromosome '12'
+00:00:47	Done. Loaded 1076 sequences.
+00:00:47	Loading sequences for chromosome '13' from file '/Users/Documents/snpEff/./data/hg19/sequence.13.bin'
+00:00:48	Building sequence tree for chromosome '13'
+00:00:48	Done. Loaded 461 sequences.
+00:00:48	Loading sequences for chromosome '14' from file '/Users/Documents/snpEff/./data/hg19/sequence.14.bin'
+00:00:49	Building sequence tree for chromosome '14'
+00:00:49	Done. Loaded 710 sequences.
+00:00:49	Loading sequences for chromosome '15' from file '/Users/Documents/snpEff/./data/hg19/sequence.15.bin'
+00:00:50	Building sequence tree for chromosome '15'
+00:00:50	Done. Loaded 723 sequences.
+00:00:50	Loading sequences for chromosome '16' from file '/Users/Documents/snpEff/./data/hg19/sequence.16.bin'
+00:00:51	Building sequence tree for chromosome '16'
+00:00:51	Done. Loaded 877 sequences.
+00:00:51	Loading sequences for chromosome '17' from file '/Users/Documents/snpEff/./data/hg19/sequence.17.bin'
+00:00:53	Building sequence tree for chromosome '17'
+00:00:53	Done. Loaded 1141 sequences.
+00:00:53	Loading sequences for chromosome '18' from file '/Users/Documents/snpEff/./data/hg19/sequence.18.bin'
+00:00:54	Building sequence tree for chromosome '18'
+00:00:54	Done. Loaded 322 sequences.
+00:00:54	Loading sequences for chromosome '19' from file '/Users/Documents/snpEff/./data/hg19/sequence.19.bin'
+00:00:54	Building sequence tree for chromosome '19'
+00:00:54	Done. Loaded 1474 sequences.
+00:00:54	Loading sequences for chromosome '20' from file '/Users/Documents/snpEff/./data/hg19/sequence.20.bin'
+00:00:55	Building sequence tree for chromosome '20'
+00:00:55	Done. Loaded 569 sequences.
+00:00:55	Loading sequences for chromosome '21' from file '/Users/Documents/snpEff/./data/hg19/sequence.21.bin'
+00:00:55	Building sequence tree for chromosome '21'
+00:00:55	Done. Loaded 282 sequences.
+00:00:55	Loading sequences for chromosome '22' from file '/Users/Documents/snpEff/./data/hg19/sequence.22.bin'
+00:00:56	Building sequence tree for chromosome '22'
+00:00:56	Done. Loaded 475 sequences.
+00:00:56	Loading sequences for chromosome 'X' from file '/Users/Documents/snpEff/./data/hg19/sequence.X.bin'
+00:00:57	Building sequence tree for chromosome 'X'
+00:00:57	Done. Loaded 909 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+INFO_REALIGN_3_PRIME	231
+WARNING_TRANSCRIPT_INCOMPLETE	28
+WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS	30
+WARNING_TRANSCRIPT_NO_START_CODON	63
+WARNING_TRANSCRIPT_NO_STOP_CODON	3
+
+
+00:00:57	Creating summary file: snpEff_summary.html
+00:00:58	Creating genes file: snpEff_genes.txt
+00:00:58	done.
+00:00:58	Logging
+00:00:59	Checking for updates...
+00:01:00	Done.
